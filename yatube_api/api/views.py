@@ -2,7 +2,7 @@ from rest_framework import permissions, viewsets, filters
 
 from api.serializers import GroupSerializer, PostSerializer, \
     CommentSerializer, FollowSerializer
-from posts.models import Group, Post, Comment, Follow, User
+from posts.models import Group, Post, Comment, Follow
 from rest_framework.exceptions import PermissionDenied
 from rest_framework.pagination import LimitOffsetPagination
 
